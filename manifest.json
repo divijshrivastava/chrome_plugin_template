@@ -3,7 +3,7 @@
         "scripts": ["background.js"]
       },
     "content_scripts":[{
-        "matches":["*"],
+        "matches":["<all_urls>"],
         "js":["content.js"]
     }],
     "manifest_version": 2,
